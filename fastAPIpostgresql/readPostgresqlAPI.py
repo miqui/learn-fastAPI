@@ -7,7 +7,7 @@ app = FastAPI()
 conn = psycopg2.connect(
     host="localhost",
     user="user",
-    password="password",
+    password="pwd",
     dbname="database"
 )
 
